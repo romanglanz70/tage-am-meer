@@ -7,87 +7,88 @@
 
 <style>
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f2f2f2;
-    color: #333;
-}
-
-header {
-    background: #1e3a5f;
-    color: white;
-    padding: 50px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #f4f7fa, #e6edf3);
+    color: #222;
     text-align: center;
 }
 
-section {
+.container {
     max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    color: #555;
 }
 
 .cover {
-    max-width: 280px;
+    margin: 30px 0;
+    max-width: 300px;
     width: 100%;
-    margin: 20px auto;
-    display: block;
-    border-radius: 6px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 30px 0;
 }
 
 .button {
     display: inline-block;
-    margin-top: 25px;
-    padding: 12px 25px;
-    background: #007acc;
+    padding: 15px 30px;
+    background: #0073e6;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 .button:hover {
-    background: #005f99;
+    background: #005bb5;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
+    margin-top: 60px;
     font-size: 14px;
+    color: #777;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Tage am Meer</h1>
-    <p>Ein Roman von Michael Braun</p>
-</header>
+<div class="container">
 
-<section>
+<h1>Tage am Meer</h1>
+<h2>Ein Roman von Michael Braun</h2>
 
-    <img src="cover.jpg" alt="Buchcover Tage am Meer" class="cover">
+<img src="cover.jpg" alt="Buchcover Tage am Meer" class="cover">
 
-    <h2>Über das Buch</h2>
-    <p>
-    Eine bewegende Geschichte über Neuanfang, Hoffnung und die Kraft des Meeres.
-    </p>
-<a href="https://www.amazon.de/dp/B0GPK9DNNT" target="_blank" style="display:inline-block;padding:12px 20px;background:#0073e6;color:white;text-decoration:none;border-radius:6px;">
+<p class="description">
+Eine bewegende Geschichte über Neuanfang, Hoffnung und die Kraft des Meeres.
+</p>
+
+<a href="https://www.amazon.de/dp/B0GPK9DNNT" target="_blank" class="button">
 Jetzt bei Amazon kaufen
 </a>
 
-</section>
-
 <footer>
-    <p>
-    <a href="impressum.html">Impressum</a>
-    </p>
+© 2026 Michael Braun | <a href="impressum.html">Impressum</a>
 </footer>
+
+</div>
 
 </body>
 </html>
